@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans:ital@0;1&family=Poppins:wght@300;400&display=swap');
+
+*{
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("/assets/bg-main-desktop.png");
+}
+
+.container{
+    max-width: 80vw;
+    padding: 20px 10px;
+    margin : 0 auto;
+}
+
+.logo{
+    margin : 50px 0;
+}
+.hero h1{
+    font-size: 4rem;
+    margin : 20px 0;
+}
+.hero p{
+    color: gray;
+    font-size: 1rem;
+    margin : 20px 0;
+}
+.premium{
+    color : white;
+
+}
+
+.bottom{
+    display  : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items: center;
+    margin : 20px 10px
+}
+.bottom p{
+    width : 30vw;
+    color: black;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+.bottom span {
+    font-weight: bold;
+}
+footer img{
+    margin : 10px 10px;
+}
+
+.background{
+    background-color:#191826;
+    border-radius: 20px;
+    width: 60vw;
+    position : relative;
+    height : 450px;
+    margin-top: 12rem;
+    margin-bottom: 40px;
+    /* margin : 20px auto; */
+    margin-left : 10vw;
+}
+.premium{
+    color : white;
+    display: flex;
+    position : absolute;
+    right: 3rem;
+    bottom : -3rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: space-between;
+    /* justify-content: center; */
+    width : 25vw;
+    background-color: #fa7453;
+    border-radius: 15px;
+    padding: 20px;
+}
+.premium h1{
+    font-size: 1.2rem;
+    margin : 10px 0;
+}
+.premium p{
+    margin : 10px auto;
+}
+.apple{
+    background-color : #191826;
+    border-radius: 9px;
+    text-align: center;
+    color : white;
+    font-size : 1.2rem;
+    /* height : 20px; */
+    /* display: flex;
+    justify-content : center; */
+    align-items: center;
+    margin : 20px auto;
+    width : 90%;
+    height : 3rem;
+    padding : 20px auto;
+    border: none;
+}
+.apple img{
+    margin-right: 5px;
+}
+.android{
+    background-color : white;
+    border-radius: 9px;
+    text-align: center;
+    color : black;
+    font-size : 1.2rem;
+    /* height : 20px; */
+    /* display: flex;
+    justify-content : center; */
+    margin : 0 auto;
+    align-items: center;
+    width : 90%;
+    height : 3rem;
+    padding : 20px auto;
+    border: none;
+}
+.android img{
+    margin-right: 5px;
+    color : white
+}
+.inline{
+    display : inline;
+    float : left;
+}
+.phone{
+    width: 250px;
+    position: absolute;
+    left: 4rem;
+    bottom: 3.5rem;
+    z-index: 2;
+}
+.p2{
+    position: absolute;
+    left : 19rem;
+    top:1rem;
+    width: 200px;
+}
